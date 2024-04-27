@@ -42,8 +42,8 @@ body {
   border-bottom: 3px solid #00a53f;
 }
 
-section {
-  min-height: 100vh;
+.contact {
+  min-height: 50vh;
   padding: 10rem 9% 2rem;
   display: flex;
   justify-content: center;
@@ -98,7 +98,7 @@ section {
   }
   61%,
   80% {
-    content: "schedule contact";
+    content: "Schedule Contact";
   }
   81%,
   100% {
@@ -133,6 +133,14 @@ section {
   }
 }
 
+/* msg */
+p {
+  font-size: 24px;
+  text-align: center;
+  padding: 1rem;  
+  color: red;
+}
+
 /* Form */
 form {
   display: flex;
@@ -157,4 +165,26 @@ form button {
   border-radius: 5px;
   background: #00a53f;
   color: #fff;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+table th {
+  padding: 1rem;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+}
+
+table td {
+  padding: 1rem 0;
+  font-size: 20px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
 }

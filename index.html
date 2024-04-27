@@ -13,23 +13,42 @@
       </a>
 
       <nav class="nav">
-        <a href="#contact">Contato</a>
+        <a href="#tbody">Contatos</a>
       </nav>
     </header>
 
-    <section class="contact" id="contact">
+    <section class="contact">
       <div class="home-cotent">
         <h1 class="text-animation"><span></span></h1>
 
         <form id="contact-form">
-          <input type="text" id="name" placeholder="Nome do contato" />
-          <input type="tel" id="number" placeholder="Número" />
-          <input type="email" id="email" placeholder="e-mail" />
+          <input type="text" id="name" placeholder="Nome do contato" required autocomplete="off" />
+          <input type="tel" id="Telefone" placeholder="Telefone" required />
+          <input type="email" id="email" placeholder="E-mail" />
           <button id="save-contact-btn">Adicionar</button>
         </form>
       </div>
     </section>
 
+    <div>
+      <p id="msg"></p>
+    </div>
+
+    <section class="tabela-ctt">
+      <table cellspacing="0">
+        <thead>
+          <tr>
+            <th>Nome do Contato</th>
+            <th>Numero</th>
+            <th>E-mail</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+          <tr>
+          </tr>
+        </tbody>
+      </table>
+    </section>
     <script src="./main.js"></script>
   </body>
 </html>
