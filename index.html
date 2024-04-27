@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Agenda de Contatos</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">
+        <img src="./img/lorran-branco.png" alt="logo do nome Franklin Lorran" />
+      </a>
+
+      <nav class="nav">
+        <a href="#contact">Contato</a>
+      </nav>
+    </header>
+
+    <section class="contact" id="contact">
+      <div class="home-cotent">
+        <h1 class="text-animation"><span></span></h1>
+
+        <form id="contact-form">
+          <input type="text" id="name" placeholder="Nome do contato" />
+          <input type="tel" id="number" placeholder="Número" />
+          <input type="email" id="email" placeholder="e-mail" />
+          <button id="save-contact-btn">Adicionar</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
