@@ -188,3 +188,29 @@ table td {
   border-bottom: 1px solid #ccc;
   text-align: center;
 }
+
+@media (max-width: 660px) {
+  .logo img {
+    width: 100px;
+  }
+  .nav a {
+    font-size: 1.2rem;
+  }
+  .text-animation {
+    font-size: 32px;
+    padding: .5rem 0;
+    min-width: 380px;
+  }
+  form {
+    flex-direction: column;
+  }
+  form input {
+    margin: .5rem 0;
+  }
+  table th {
+    font-size: 16px;
+  }
+  table td {
+    font-size: 16px;
+  }
+}
